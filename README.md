@@ -6,18 +6,17 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Add / Edit / Delete Risks**  
 - **Assessment History & Change Log** for each risk  
 - **Control Mapping** against popular frameworks (NIST CSF, ISO 27001, CIS, PCI, HIPAA, GDPR, CMMC, COBIT, CSA CCM…)  
 - **AI-powered mitigation suggestions** via OpenAI (optional)  
 - **Export to** CSV, Excel, and PDF (with embedded charts & trend tables)  
-- **Jira** ticket creation integration  
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - React (v18+)  
 - Tailwind CSS  
@@ -29,14 +28,13 @@
 
 ---
 
-## 💻 Getting Started
+## Getting Started
 
 ### Prerequisites
 
 - Node.js ≥ 16.x  
 - npm (or Yarn)  
 - (Optional) A free [OpenAI API key](https://platform.openai.com/)  
-- (Optional) Jira base URL & API credentials  
 
 ### Installation
 
@@ -52,9 +50,6 @@ Then open .env.local and set:
 
 ini
 REACT_APP_OPENAI_API_KEY=sk-…
-REACT_APP_JIRA_BASE_URL=https://your-atlassian-site.atlassian.net
-REACT_APP_JIRA_EMAIL=you@example.com
-REACT_APP_JIRA_API_TOKEN=…
 
 Install dependencies
 bash
